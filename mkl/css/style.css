@@ -1,0 +1,15 @@
+
+
+.contact{
+    color:rgb(165, 242, 0);
+    
+}
+
+input{
+    display: inline-block;
+}
+
+li{
+    text-decoration: none;
+    font-size: large;
+}

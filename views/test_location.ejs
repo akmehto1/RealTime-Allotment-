@@ -1,0 +1,49 @@
+<html>
+    <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+  
+        .heading{
+          font-family: 'Anton', sans-serif;
+          font-size:40px;
+          letter-spacing: 4px;
+          margin-left: -3px;
+          
+        }
+      .main{
+        margin-left:40%;
+        margin-top:10%;
+        width:500px;
+      }
+      input{
+      height:40px;
+      width:300px
+      }
+      .button{
+      
+        height:40px;
+      width:300px
+      }
+      
+      </style>
+    </head>
+
+    <body>
+       
+        <div class="main">
+          <h1 class="heading">ADD TEST CENTER</h1>
+            <form autocomplete="off" action="/testcenter/adding" method="post">
+            <div class="autocomplete" style="width:300px;">
+              <input id="myinput" type="text"  name="name1" placeholder="Test center name"></br></br>
+              <input id="myInput" type="text" name="x" placeholder="x-coordinate"></br></br>
+              <input id="myInput" type="text" name="y" placeholder="y-coordinate"></br></br>
+              <input id="myInput" type="text" name="count" placeholder="current"></br></br>
+              <input id="myInput" type="text" name="max" placeholder="max seat"></br></br>
+            </div>
+            <div><button class="button" style="vertical-align:middle"><span>SUBMIT </span></button></div>
+          </form></div>
+    </body>
+</html>

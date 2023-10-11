@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/ddb4191dd2.js" crossorigin="anonymous"></script>
+    <style>
+        a{
+            text-decoration: none;
+            color:black
+        }
+
+        a:hover{
+            color:blue;
+            
+        }
+        *{
+            margin: 0px;
+        }
+
+        #location {
+            position: absolute;
+
+
+
+        }
+        .main {
+            
+            height: 100vh;
+            position: relative;
+         
+     }
+     #abhi{
+        background: url(https://fiorecommunications.com/wp-content/uploads/2019/02/image-maps.jpg) !important;
+            width: 100%;
+            height: 600px;
+     }
+        .main {
+            background: url(https://fiorecommunications.com/wp-content/uploads/2019/02/image-maps.jpg) !important;
+            width: 100%;
+            height: 600px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main" style="background: url(https://fiorecommunications.com/wp-content/uploads/2019/02/image-maps.jpg) !important; height: 300vh;">
+        <% for(let i of title){ %>
+            <div id="location"   style="top:<%= i.y%>; left:<%= i.x%>; color:red">
+                <p  >
+                    <%=i.name %>
+                </p>
+                <div class="fa-solid fa-location-pin "> </div>
+            </div>
+            <%} %>
+    </div>
+    <a href="http://localhost:8000" class="link">MAIN MENU</a>
+
+    <script>
+
+    </script>
+</body>
+
+</html>
